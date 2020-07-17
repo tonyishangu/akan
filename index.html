@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Akan Names</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 intro">
+                <h1 class="heading">Akan Names</h1>
+                <hr>
+                <div class="description">
+                    <p>This is a web application that uses a user's birthday to calculate the day they were born then gives their akan name based on gender selected.Akan names belong to a Ghanian culture, children are given names depending on the day they were born.</p>
+                    <p class="pd">Here are the names given:</p>
+                    <div class="col-md-6">
+                        <div class="akannames">
+                            <h1>&nbsp; &nbsp;Male</h1>
+                            <ul class="ak-name">
+                                <li>Sunday : kwasi</li>
+                                <li>Monday : Kwadwo</li>
+                                <li>Tuesday : Kwabena</li>
+                                <li>Wednesday : Kwaku</li>
+                                <li>Thursday : Yaw</li>
+                                <li>Friday : Kofi</li>
+                                <li>Saturday : Kwame</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="akannamesf">
+                                <h1>&nbsp; &nbsp;Female</h1>
+                                <ul class="ak-name">
+                                    <li>Sunday : Akosua</li>
+                                    <li>Monday : Adwoa</li>
+                                    <li>Tuesday : Abenaa</li>
+                                    <li>Wednesday : Akua</li>
+                                    <li>Thursday : Yaa</li>
+                                    <li>Friday : Afua</li>
+                                    <li>Saturday : Ama</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4-form">
+                    <h5>Please enter your Birthdate</h5>
+                    <div class="style-form">
+                        <form>
+                            <div class="form-group">
+                                <label class="label">Birthdate</label>
+                                <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Gender</label>
+                                <input type="radio" name="gender" value="male" id="male">male
+                                <input type="radio" name="gender" value="female" id="female">Female
+                            </div>
+                            <button type="submit">Get Akan Name</button>
+                            <button type="submit">Cancel</button>
+                        </form>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <p id="message" class="output"></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.container{
+    background-color: blanchedalmond;
+}
+.heading{
+    color: blue;
+    text-align: center;
+}
+.description{
+    color: blue;
+}
+h1{
+    font-style: italic;
+}
+.pd{
+    color: black;
+}
+.ak-name{
+    color: brown;
+}
+.form-group{
+    color: brown;
+}
+p{
+    color: brown;
+}
